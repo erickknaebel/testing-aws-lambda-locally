@@ -1,0 +1,10 @@
+{
+  "name": "simple-aws-lambda",
+  "version": "1.0.0",
+  "scripts": {
+    "local": "node -e \"console.log(require('./index').handler(require('./event.json')));\""
+  },
+  "dependencies": {
+    "mongodb": "latest"
+  }
+}
